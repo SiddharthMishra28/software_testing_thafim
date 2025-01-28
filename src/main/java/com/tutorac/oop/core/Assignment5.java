@@ -1,4 +1,4 @@
-package com.tutorac.oop;
+package com.tutorac.oop.core;
 
 public class Assignment5 {
     // DECLARE A CLASS CALLED AS CAR

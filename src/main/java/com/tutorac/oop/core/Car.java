@@ -1,4 +1,4 @@
-package com.tutorac.oop;
+package com.tutorac.oop.core;
 
 // BLUEPRINT OF A CAR
 public class Car {

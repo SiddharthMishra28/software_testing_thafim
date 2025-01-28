@@ -1,4 +1,4 @@
-package com.tutorac.oop;
+package com.tutorac.oop.core;
 
 public class Boat {
     String type;
