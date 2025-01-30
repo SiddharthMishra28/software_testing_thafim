@@ -1,0 +1,19 @@
+package com.tutorac.oop.polymorphism;
+
+public class Assignment7 {
+    // CREATE A CLASS CALLED AS SHOP
+    // CREATE MEMBER VARIABLES OF A SHOP
+    // CREATE A METHOD purchase(String product)
+    // purchase() METHOD SHOULD RETURN THE PRICE OF THE BILLED PRODUCT
+    // CREATE ANOTHER OVERLOADED METHOD purchase(String product, String size)
+    // purchase(String product, String size) SHOULD RETURN PRICE AND OUTPUT A MESSAGE TO THE USER
+
+    // CREATE ANOTHER CLASS CALLED AS ONLINESTORE
+    // CREATE MEMBERS VARIABLES
+    // ONLINESTORE SHOULD INHERIT SHOP
+    // purchase(String product, String size) - SHOULD RETURN AN ARRAY WITH ORDER ID AND PRICE
+    // purchase(String product, String size, String color) - SHOULD PRINT A MESSAGE TO CONSOLE AND RETURNS AN ARRAY WITH ORDER ID AND PRICE
+
+    // ASSIGN OBJECT OF ONLINESTORE TO SHOP AND VICE VERSA
+    // CHECK FOR METHODS IN AUTOCOMPLETION
+}
