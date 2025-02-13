@@ -41,4 +41,14 @@ public class Account {
     public void setTransactions(List<Transaction> transactions) {
         this.transactions = transactions;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", type='" + type + '\'' +
+                ", balance=" + balance +
+                ", transactions=" + transactions +
+                '}';
+    }
 }

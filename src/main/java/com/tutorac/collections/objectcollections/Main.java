@@ -10,6 +10,7 @@ public class Main {
         hdfcBank.setBankName("HDFC Bank");
         hdfcBank.setLocation("Central Hyderabad");
         hdfcBank.setFinInstraNumber("INFIN1234");
+        System.out.println(hdfcBank);
         List<Customer> customerList = new ArrayList<>();
         BankUtilities utilities = new BankUtilities();
         boolean isRunning = true;
@@ -30,6 +31,7 @@ public class Main {
             switch (option) {
                 case 1:
                     Customer customer = utilities.createCustomer();
+                    System.out.println("Customer :"+customer+" created!");
                     customerList.add(customer);
                     break;
 

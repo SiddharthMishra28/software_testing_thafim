@@ -42,4 +42,14 @@ public class Bank {
     public void setCustomers(List<Customer> customers) {
         this.customers = customers;
     }
+
+    @Override
+    public String toString() {
+        return "Bank{" +
+                "bankName='" + bankName + '\'' +
+                ", finInstraNumber='" + finInstraNumber + '\'' +
+                ", location='" + location + '\'' +
+                ", customers=" + customers +
+                '}';
+    }
 }

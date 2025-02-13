@@ -39,4 +39,14 @@ public class Transaction {
     public void setCreditedAccountNumber(int creditedAccountNumber) {
         this.creditedAccountNumber = creditedAccountNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "debitedAmount=" + debitedAmount +
+                ", creditedAmount=" + creditedAmount +
+                ", debitedAccountNumber=" + debitedAccountNumber +
+                ", creditedAccountNumber=" + creditedAccountNumber +
+                '}';
+    }
 }
