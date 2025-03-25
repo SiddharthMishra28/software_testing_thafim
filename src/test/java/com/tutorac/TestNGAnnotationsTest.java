@@ -26,6 +26,7 @@ public class TestNGAnnotationsTest {
     @Test(groups = {"sanity_check"})
     public void loginTest() {
         System.out.println("Login Successful!");
+        Assert.assertEquals(1,10);
     }
 
     @Test(groups = {"sanity_check"})

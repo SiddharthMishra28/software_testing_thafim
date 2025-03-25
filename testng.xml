@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Check">
+    <listeners>
+        <listener class-name="com.tutorac.TestListener" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/intellij-projects/core-java/src/test/java/com/tutorac">
+        <classes>
+            <class name="com.tutorac.DataDrivenTests1">
+                <methods>
+                    <include name="loginCoverageTest"/>
+                </methods>
+            </class>
+            <class name="com.tutorac.TestNGAnnotationsTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
