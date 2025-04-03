@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.tutorac.reporting.TestEventsListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/intellij-projects/core-java/src/test/java/com/tutorac/tests">
+        <classes>
+            <class name="com.tutorac.tests.CreateAccountTest">
+                <methods>
+                    <include name="registerUserTest"/>
+                </methods>
+            </class>
+            <class name="com.tutorac.tests.SanityTests">
+                <methods>
+                    <include name="navigationTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
