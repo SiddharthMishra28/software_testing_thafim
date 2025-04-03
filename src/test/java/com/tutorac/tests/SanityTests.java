@@ -1,5 +1,6 @@
 package com.tutorac.tests;
 
+import com.aventstack.extentreports.Status;
 import com.tutorac.config.Hooks;
 import com.tutorac.pages.HomePage;
 import com.tutorac.pages.LoginPage;
@@ -13,9 +14,10 @@ public class SanityTests extends Hooks { // IS-A
     @Test
     public void navigationTest() {
         utils = new UIInteractionUtils(driver);
+        testInstance.log(Status.INFO, "Navigating to "+configProps.getProperty("app_url"));
         utils.navigate(configProps.getProperty("app_url"));
         String pageTitle = driver.getTitle();
-        Assert.assertEquals(pageTitle, "Vistamart");
+        Assert.assertEquals(pageTitle, "Vistamar");
     }
 
     @Test

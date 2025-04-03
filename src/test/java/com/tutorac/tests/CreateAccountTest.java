@@ -1,5 +1,6 @@
 package com.tutorac.tests;
 
+import com.aventstack.extentreports.Status;
 import com.tutorac.config.Hooks;
 import com.tutorac.pages.CreateAccountPage;
 import com.tutorac.pages.HomePage;
@@ -21,6 +22,7 @@ public class CreateAccountTest extends Hooks {
                                  String password,
                                  String birthDate) {
         utils = new UIInteractionUtils(driver);
+        testInstance.log(Status.INFO, "Navigating to "+configProps.getProperty("app_url"));
         utils.navigate(configProps.getProperty("app_url"));
         utils.clickElement(HomePage.signInLink);
         utils.clickElement(LoginPage.createNewAccountLink);
